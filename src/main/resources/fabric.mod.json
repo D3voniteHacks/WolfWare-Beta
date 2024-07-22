@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
-  "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "id": "WolfWare",
+  "version": "1.0.0-Beta",
+  "name": "WolfWare.rip",
+  "description": "silly block game cheetos",
   "authors": [
-    "seasnail"
+    "D3vonite"
   ],
   "contact": {
     "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
@@ -21,11 +21,11 @@
     "addon-template.mixins.json"
   ],
   "custom": {
-    "meteor-client:color": "225,25,25"
+    "meteor-client:color": "73,18,18"
   },
   "depends": {
     "java": ">=21",
-    "minecraft": ["1.20.5","${mc_version}"],
+    "minecraft": ["1.21","${mc_version}"],
     "meteor-client": "*"
   }
 }
